@@ -1,0 +1,2 @@
+#!/bin/sh
+UsbdmFlashProgrammer -target:HCS12 -device:MC9S12NE64 -vdd:3V3 -execute -erase:mass -program "$@"
